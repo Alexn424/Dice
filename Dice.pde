@@ -16,10 +16,8 @@ void draw()
         bob.roll();
         sum += bob.rollNum;
         bob.show();
-        System.out.println(bob.rollNum);
       }
     }
-    System.out.println();
     text("roll total: " + sum, 220, 400);
 
     //your code here
